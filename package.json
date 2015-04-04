@@ -1,0 +1,23 @@
+{
+  "name": "ubiquisync-redis",
+  "version": "1.0.0",
+  "description": "Ubiquisync with server side redis cache",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dazld/ubiquisync-redis.git"
+  },
+  "author": "Dan Peddle <dan@flarework.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dazld/ubiquisync-redis/issues"
+  },
+  "homepage": "https://github.com/dazld/ubiquisync-redis",
+  "dependencies": {
+    "node-redis": "^0.1.7",
+    "ubiquisync": "^1.0.0"
+  }
+}
