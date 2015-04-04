@@ -53,6 +53,9 @@ var wrappedSync = function(method, model, options){
                 options[fn] && options[fn](body);
             });
         }).catch(function(err){
+            ['error', 'complete'].forEach(function(fn){
+                options[fn] && options[fn](err);
+            });
             console.log(err, err.stack);
         });
 
