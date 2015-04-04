@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Ubiquisync with server side redis cache",
   "main": "index.js",
+  "browser": "./browser/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/dazld/ubiquisync-redis",
   "dependencies": {
-    "node-redis": "^0.1.7",
+    "bluebird": "^2.9.24",
+    "redis": "^0.12.1",
     "ubiquisync": "^1.0.0"
   }
 }
